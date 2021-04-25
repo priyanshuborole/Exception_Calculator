@@ -13,10 +13,6 @@ class MaxMultiReachedException extends Exception{
     public String toString() {
         return "Input should not exceed more than 7000 for multiplication";
     }
-   /*@Override
-   public String getMessage() {
-       return "Input should not exceed more than 7000 for multiplication" ;
-   }*/
 
 }
 public class Exception_Calculator {
